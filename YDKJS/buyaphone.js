@@ -1,3 +1,6 @@
+// You Don't Know JS: Up and Going
+// Chapter 1 Practice example
+
 const TAX_RATE = 0.08;
 const PHONE_PRICE = 99.99;
 const ACCESSORY_PRICE = 9.99;

@@ -5,7 +5,6 @@ function titleCase(str) {
   str = str.toLowerCase(); // make all letters lower case
   words = str.split("");
   arraySize = words.length;
-  console.log(words);
   // capitalize first letter
   words[0] = words[0].toUpperCase();
   // capitalize all letters that occur after a space

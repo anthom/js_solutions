@@ -3,10 +3,6 @@
 
 function palindrome(str) {
   str = str.toLowerCase().replace(/[^a-z|0-9]/g, ""); // modify str to ensure all lowercase characters
-
-  strArray = str.split(''); // expand contents of str to an array
-
-  console.log(str);
   
   if (str.length === 0) {
 	  return true;

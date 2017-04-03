@@ -1,3 +1,6 @@
+// Free Code Camp, Front End track
+// Basic Algorithm Challenge: Find the Longest Word in a String
+
 function findLongestWord(str) {
   words = str.split(' ');
   longest = words[0];

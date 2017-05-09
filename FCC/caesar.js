@@ -15,7 +15,7 @@ function rot13(str) { // LBH QVQ VG!
         charCode = (str.charCodeAt(x) + 13);
       }
     else {
-      charCode = str.charCodeAt(x);
+      charCode = str.charCodeAt(x);                                         // if not uppercase alpha, charcode remains the same
     }
     codes.push(charCode);                                                   // push all "de-rotated" character values into codes array
   }  
